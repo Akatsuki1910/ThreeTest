@@ -1,0 +1,19 @@
+{
+  "name": "threetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server",
+    "watch": "webpack --watch"
+  },
+  "author": "akatsuki1910 <akatsukicirno@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.120.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
